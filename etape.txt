@@ -1,0 +1,16 @@
+
+
+Une fois les images Elk et Kafka Installer 
+On a pris des données en temps réel envoyé par un code python ( c'est le Faker)
+donc notre source de données c'est le faker (c'est notre producer )
+On consomme ces données avec Kafka 
+Aprés on fait la connexion entre Kafka et Elastic search (qui est notre base de données
+dans ce cas )Avec logstach.
+
+Et Enfin On visualise le tout avec Kibana ( les données et les metrics )
+
+
+Pour la connexion entre kafka et elastic search 
+Il faut executer sur le path c:\logstash-8.5.2\bin la commande logstash -f dans le dossier logstash.conf
+
+Une fois la connexion etabli on créer notre cluster sur elsatic search 
